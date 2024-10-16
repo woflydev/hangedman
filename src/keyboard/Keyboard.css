@@ -1,0 +1,26 @@
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.keyboard_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.keyboard_letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    border: 1px solid black;
+    width: 60px;
+}
+.keyboard_letter:hover {
+    background-color: #021526;
+    transition: 0.4s background-color;
+    color: lightgray;
+}

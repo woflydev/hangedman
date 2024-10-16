@@ -1,0 +1,24 @@
+.message{
+    font-size: 1.5em;
+    color: #333;
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+.button{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0.5em;
+    margin: 0.5em;
+    cursor: pointer;
+    background-color: #021526;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s background-color;
+}
+.button:hover{
+    transform: translateY(2px);
+}

@@ -1,0 +1,15 @@
+.hidden_word {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid black;
+    width: 30px;
+}
