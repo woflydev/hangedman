@@ -11,6 +11,10 @@ function App() {
     const randomTitles = [
         "what i'll do if i get a 4 in english",
         "me after tok exhibition due",
+        "idk what this is bro",
+        "hangedman",
+        "hungman",
+        "hangover"
     ]
 
     const randomTitle = randomTitles[Math.floor(Math.random() * randomTitles.length)];
